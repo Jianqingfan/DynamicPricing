@@ -1,0 +1,15 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww14380\viewh12220\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 	Optimal Semiparametric Dynamic Pricing \
+\
+		Jianqing Fan\
+		Princeton University\
+\
+We study a contextual dynamic pricing problem under a semiparametric demand model, where the purchase probability takes the form $1 - F(p - m(\\bx))$ with mean utility $m(\\bx)$ given the product feature $\\bx$ and the market noise distribution $F$.  We propose a stagewise greedy pricing algorithm that iteratively refines the estimate of the unknown distribution $F$ using local polynomial regression, while pricing greedily using the currently available estimates. Our algorithm exploits feature diversity to reuse endogenous samples collected during exploitation for nonparametric function estimation, avoiding the need for costly global random exploration in the previous literature.   We derive a general upper regret bound for a given utility estimator $\\hat\{m\}$ and provide the explicit regret rates for $m$ in linear, nonparametric additive, and sparse linear classes. In particular, for the linear function class, we establish a regret bound of order $T^\{\\max\\\{1/2,\\,3/(2\\beta+1)\\\}\}$, where $\\beta$ denotes the smoothness of $F$ and $T$ represents the time horizon. This improves upon the best known rates for semiparametric contextual pricing and attains the parametric $\\sqrt\{T\}$ rate when $
+\fs30 \\beta \\ge 5/2$. We complement our upper bound with a matching lower bound, demonstrating the optimality of our a
+\fs28 pproach. Numerical experiments corroborate the theoretical findings and highlight the practical benefits of iterative refinement.}
