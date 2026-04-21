@@ -47,3 +47,11 @@ Because the repository is “local” via Dropbox, we don’t need to clone or c
 # Adding Collaborators
 
 This is done via GitHub under the repository’s Settings in Collaborators and Teams > Manage Direct Access (my account name is pubino).
+
+#Create the repository from GitHub and clone the respository.  Then, under the unix, issue (make sure FIDDLE does not exist in the unix folder)
+git clone https://github.com/Jianqingfan/FIDDLE.git
+### after this, copy and paste the files into FIDDLE.git and use VScode to update the empty reositorty 
+
+### Some Command Line
+
+
